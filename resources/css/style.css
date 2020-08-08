@@ -1,4 +1,172 @@
-h1 {
+body{
+    background-color:white;
+    border: 2px solid grey;
+  }
+ *{
+    margin: 0;
+    padding: 0;
+  }
+ul{
+    list-style-type: none;
+}
+h1{
+    font-size: 40px;
+}
+p{
     font-size: 30px;
-    color: blue;
+}
+.text-center{
+    text-align: center;
+}
+header{
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: center; /*horizontálisan középre*/
+
+}
+header a{
+    padding: 0 80px; /*a kis ikonok elhelyezkedése a sávon belül*/
+
+}
+
+/*banner*/
+#banner{
+  background-color: grey;
+}
+img.banner{
+    width: 100%;
+}
+.learn{
+    margin: 32px 16px;
+}
+.lorem{
+    margin: 0 16px;
+}
+.start{
+    margin: 24px 16px 32px 16px;
+    background-color: rgb(53, 52, 52);
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+/*main*/
+.flexcontainer{
+    display: flex;
+
+}
+li.man{
+
+}
+img.main {
+    margin: 32px 24px;
+    width: 97%;
+
+}
+h1.it {
+    margin: 0 0 24px 24px;
+    font-size: 35px;
+}
+p.curabitur {
+    margin: 0 0 50px 24px;
+    font-size: 25px;
+}
+h4.emanuel {
+    margin-bottom: 32px;
+    margin-left: 24px;
+}
+.cards{
+    padding: 30px 16px;
+    width: 40%;
+}
+.card{
+    border: 2px solid gray;
+
+}
+.card img{
+    height: auto;
+    width: 35%;
+    padding: 16px;
+}
+.card-text{
+    width: 65%;
+    justify-content: center; /*horizontálisan középre*/
+    padding: 20px;   
+}
+.card-text h3{
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+.cards p{
+    font-size: 25px;
+}
+.read a {
+    text-align: left;
+}
+.inf{
+    padding: 8px 0;
+}
+.grey{
+    background-color: gray;
+}
+/*start learning*/
+#learning{
+  background-color: rgb(164, 164, 238); 
+}
+#learning .learning {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 72px;
+}
+.kartya{
+    background-color: white;
+    margin: 0 32px 32px 0;
+    width: 475px;
+    height: auto;
+    display: inline-block;
+    border: 2px solid black;
+}
+#learning img{
+    height: auto;
+    width: 100%;
+}
+#learning h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 32px;
+}
+.text{
+    margin: 16px;
+}
+/*thesis*/
+.kontener {
+    box-sizing: border-box;
+    display: flex;
+}
+.thesis {
+    margin: 0 24px 24px 24px;
+}
+.thesis video {
+    width: 100%;
+}
+.kart {
+    display: flex;
+    border: 1px solid blue;
+}
+.karts {
+    width: 40%;
+}
+h1.exhibit {
+    margin: 32px 0;
+    text-align: center;
+}
+.kart img {
+    margin: 16px;
+    width: 35%;
+    height: auto;
 }
